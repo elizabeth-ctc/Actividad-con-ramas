@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="pokemon.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Mostrando datos con Pokemon API</h1>
+    <!--recordar que para Javascript una buena practica es utilizar los id en lugar de class-->
+    <div id="pokemon-container" class="flex-container flex-stretch">
+      <!--Acá se agregarán los datos del pokemon JS-->
+    </div>
+    <div class="input-container">
+      <input type="text" id="campoBuscar" placeholder="Ingresar nombre o id del Pokemón" />
+      <button id="btnBuscar">Buscar</button>
+      <button id="btnLimpiar">Limpiar</button>
+    </div>
+    
+
+    <script src="pokemon.js"></script>
+  </body>
+</html>
